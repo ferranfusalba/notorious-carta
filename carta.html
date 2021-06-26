@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="estilos.css">
     <!-- Josefin Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--
 /**
 * @license
@@ -30,105 +34,163 @@
 </head>
 
 <body>
-    <h1>Carta Notorious Jazz Café</h1>
-    <p><i>Menú del día, torradas, tablas, raciones y tapas, pica pica, popurríes de conservas y vermuts.</i></p>
-    <p><i>Todos los precios incluyen el IVA.</i></p>
-    <h2>Menú del día - 13 €</h2>
-    <p><i>Platos variados a diario. Pregunte a nuestro personal.</i></p>
-    <ul>
-        <li>Primer plato</li>
-        <li>Segundo plato</li>
-        <li>Copa de vino, caña o refresco</li>
-        <li>Postre o café</li>
-    </ul>
-    <h2>Carta</h2>
-    <h3>Torradas</h3>
-    <ul>
-        <li>Virutas de ib&eacute;rico &ndash; 8,75 &euro;</li>
-        <li>Jam&oacute;n ib&eacute;rico de bellota &ndash; 10,25 &euro;</li>
-        <li>Manchego curado elaborado con leche cruda &ndash; 8,50 &euro;</li>
-        <li>Queso Pecorino (trufado), elaborado con leche cruda &ndash; 12,00 &euro;</li>
-        <li>Queso azul asturiano &ndash; 10,50 &euro;</li>
-        <li>Queso parmesano de 4 a&ntilde;os&nbsp;&ndash;&nbsp;12,00 &euro;</li>
-        <li>Anchoas de La Escala y queso Brie &ndash; 8,80 &euro;</li>
-        <li>Anchoas de La Escala, pimiento del piquillo y olivas rellenas de anchoa &ndash; 7,50 &euro;</li>
-        <li>Chorizo ib&eacute;rico &ndash; 7,50 &euro;</li>
-        <li>Butifarra negra/blanca de la Cerdanya &ndash; 7,00 &euro;</li>
-        <li>Bull negro/blanco de la Cerdanya &ndash; 7,50 &euro;</li>
-        <li>Anchoas de La Escala con queso Mascarpone &ndash; 8,00 &euro;</li>
-        <li>Anchoas de La Escala con Pat&eacute; de Gascoigne &ndash; 8,50 &euro;</li>
-        <li>Pavo con Aguacate &ndash; 8,20 &euro;</li>
-        <li>Salm&oacute;n noruego con Aguacate &ndash; 10,25 &euro;</li>
-        <li>Bloc de Foie gras &ndash; 20,00 &euro;</li>
-        <li>Bloc de Foie con carne de cangrejo ruso &ndash; 21,00 &euro;</li>
-    </ul>
-    <h3>Tablas</h3>
-    <ul>
-        <li>Tabla de quesos franceses <em>(Roquefort, Brie, Camembert, Compt&eacute;)</em> &ndash; 16,00 &euro;</li>
-        <li>Tabla de quesos de aqu&iacute; <em>(Manchego viejo, manchego semi, azul, trufado, cabra. Todos elaborados
-                con leche cruda de oveja y cabra)</em> &ndash; 16,00 &euro;</li>
-        <li>Tabla Mixta <em>(Jam&oacute;n ib&eacute;rico, lomo ib&eacute;rico y queso manchego)</em> &ndash; 16,00
-            &euro;</li>
-        <li>Tabla ib&eacute;ricos <em>(Jam&oacute;n ib&eacute;rico, lomo y chorizo ib&eacute;ricos)</em> &ndash; 17,00
-            &euro;</li>
-        <li>Tabla de embutidos catalanes <em>(butifarra blanca, butifarra negra, Bull blanco y Bull negro Artesanos de
-                la Cerdanya)</em> &ndash; 15,00 &euro;</li>
-    </ul>
-    <h3>Raciones y tapas</h3>
-    <ul>
-        <li>Fuet &ndash; 4,50 &euro; tapa / 7,00 &euro; raci&oacute;n</li>
-        <li>Jam&oacute;n ib&eacute;rico &ndash; 8,25 &euro; tapa / 16,00 &euro; raci&oacute;n</li>
-        <li>Queso manchego &ndash; 8,25 &euro; tapa / 16,00 &euro; raci&oacute;n</li>
-        <li>Queso trufado Peccorino &ndash; 9,50 &euro; tapa / 18,00 &euro; raci&oacute;n</li>
-    </ul>
-    <h3>Pica pica</h3>
-    <ul>
-        <li>Bravas Notorious &ndash; 7,00 &euro;</li>
-        <li>Ensaladilla Rusa &ndash; 6,00 &euro;</li>
-        <li>Chorizos minis de Le&oacute;n a la sidra &ndash; 7,50 &euro;</li>
-        <li>Berberechos de las r&iacute;as &ndash; 5,20 &euro;</li>
-        <li>Anchoas de la Escala &ndash; 9,00 &euro;</li>
-        <li>Boquerones &ndash; 8,00 &euro;</li>
-        <li>Mejillones &ndash; 5,00 &euro;</li>
-        <li>Almejas &ndash; 5,00 &euro;</li>
-        <li>Olivas de la Abuela &ndash; 1,90 &euro;</li>
-        <li>Berberechos de las r&iacute;as GIGANTES &ndash; 14,50 &euro;</li>
-        <li>Croquetas caseras de jam&oacute;n ib&eacute;rico - 1,90 &euro;</li>
-        <li>Croquetas caseras de cal&ccedil;ots - 1,80 &euro;</li>
-        <li>Croquetas caseras de pollo de corral - 1,80 &euro;</li>
-        <li>Croquetas caseras de foie - 1,90 &euro;</li>
-        <li>Croquetas caseras de gambas - 2,00 &euro;</li>
-        <li>Croquetas caseras de berenjena con queso de cabra - 2,00 &euro;</li>
-        <li>Raci&oacute;n de tortilla de patatas - 4,50 &euro;</li>
-        <li>Gambas al ajillo - 8,90 &euro;</li>
-    </ul>
-    <h3>Popurríes de conservas</h3>
-    <ul>
-        <li>Mix vermutillo <em>(patatas chips, boquer&oacute;n, salsa Espinaler y olivas)</em> &ndash; 4,75 &euro;</li>
-        <li>Papill&oacute;n <em>(olivas, berberechos, navajas y mejillones)</em> &ndash; 7,50 &euro;</li>
-        <li>Mcqueen <em>(olivas, berberechos de las r&iacute;as, navajas y almejas)</em> &ndash; 7,90 &euro;</li>
-        <li>Notorious <em>(boquerones en vinagre (3 uds.), olivas, mejillones grandes, berberechos de las r&iacute;as y
-                at&uacute;n)</em> &ndash; 10,10 &euro;</li>
-        <li>Mayor Dundee <em>(boquerones en vinagre, navajas, berberechos de las r&iacute;as tama&ntilde;o gigante y
-                almejas)</em> &ndash; 13,10 &euro;</li>
-        <li>Wild Bunch <em>(anchoas de La Escala (6 uds.), berberechos gigantes de las r&iacute;as, navajas y
-                mejillones)</em> &ndash; 17,00 &euro;</li>
-        <li>El Rey del Juego <em>(sardinas ahumadas (3 uds.), boquerones en vinagre (6 uds.), anchoas de La Escala (6
-                uds.), berberechos de las r&iacute;as gigantes, mejillones grandes, patatas chips y olivas de la
-                abuela)</em> &ndash; 22,00 &euro;</li>
-    </ul>
-    <h3>Vermuts</h3>
-    <ul>
-        <li>Vermut de la casa &ndash; 1,90 &euro;</li>
-        <li>Martini, cinzano, blanco rosso &ndash; 3,00 &euro;</li>
-        <li>Campari &ndash; 4,00 &euro;</li>
-        <li>Aperol con cava &ndash; 8,00 &euro;</li>
-        <li>Aperol &ndash; 5,00 &euro;</li>
-        <li>Yzaguirre blanco, rojo &ndash; 3,00 &euro;</li>
-        <li>Mir&oacute; blanco, rojo &ndash; 2,80 &euro;</li>
-        <li>Lustau blanco, rojo &ndash; 4,00 &euro;</li>
-        <li>Peruchi &ndash; 6,50 &euro;</li>
-    </ul>
+    <div class="col-12 bg-dark text-center text-light">
+        <p>
+            Encuéntranos en Instagram y Google Maps
+        </p>
+    </div>
+    <div class="container mt-4">
+        <div class="text-center">
+            
+            <img src="./assets/Logo.jpg" alt="Logo Notorious Jazz Café" width="100px">
+            <h1 class="text-center mt-4 mb-3">Carta Notorious Jazz Café</h1>
+        </div>
+        <div class="text-center">
+            
+            <div class="dropdown">
+                <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nuestra variedad
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Menú del día</a>
+                    <a class="dropdown-item" href="#">Torradas</a>
+                    <a class="dropdown-item" href="#">Tablas</a>
+                    <a class="dropdown-item" href="#">Raciones y tapas</a>
+                    <a class="dropdown-item" href="#">Pica Pica</a>
+                    <a class="dropdown-item" href="#">Popurríes de conservas</a>
+                    <a class="dropdown-item" href="#">Vermuts</a>
+                </div>
+            </div>
+            <br>
+            <p><i>Todos los precios incluyen el IVA.</i></p>
+        </div>
+        <br>
+        <h2 class="text-center">Menú del día - 13 €</h2>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 text-center">
+                <p><i>Servicio entre semana. Platos variados a diario. Pregunte a nuestro personal.</i></p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <ul>
+            <li>Primer plato</li>
+            <li>Segundo plato</li>
+            <li>Copa de vino, caña o refresco</li>
+            <li>Postre o café</li>
+        </ul>
+        <br>
+        <h2 class="text-center">CARTA</h2>
+        <br>
+        <h3 class="text-center">Torradas</h3>
+        <ul>
+            <li>Virutas de ib&eacute;rico &ndash; 8,75 &euro;</li>
+            <li>Jam&oacute;n ib&eacute;rico de bellota &ndash; 10,25 &euro;</li>
+            <li>Manchego curado elaborado con leche cruda &ndash; 8,50 &euro;</li>
+            <li>Queso Pecorino (trufado), elaborado con leche cruda &ndash; 12,00 &euro;</li>
+            <li>Queso azul asturiano &ndash; 10,50 &euro;</li>
+            <li>Queso parmesano de 4 a&ntilde;os&nbsp;&ndash;&nbsp;12,00 &euro;</li>
+            <li>Anchoas de La Escala y queso Brie &ndash; 8,80 &euro;</li>
+            <li>Anchoas de La Escala, pimiento del piquillo y olivas rellenas de anchoa &ndash; 7,50 &euro;</li>
+            <li>Chorizo ib&eacute;rico &ndash; 7,50 &euro;</li>
+            <li>Butifarra negra/blanca de la Cerdanya &ndash; 7,00 &euro;</li>
+            <li>Bull negro/blanco de la Cerdanya &ndash; 7,50 &euro;</li>
+            <li>Anchoas de La Escala con queso Mascarpone &ndash; 8,00 &euro;</li>
+            <li>Anchoas de La Escala con Pat&eacute; de Gascoigne &ndash; 8,50 &euro;</li>
+            <li>Pavo con Aguacate &ndash; 8,20 &euro;</li>
+            <li>Salm&oacute;n noruego con Aguacate &ndash; 10,25 &euro;</li>
+            <li>Bloc de Foie gras &ndash; 20,00 &euro;</li>
+            <li>Bloc de Foie con carne de cangrejo ruso &ndash; 21,00 &euro;</li>
+        </ul>
+        <br>
+        <h3 class="text-center">Tablas</h3>
+        <ul>
+            <li>Tabla de quesos franceses <em>(Roquefort, Brie, Camembert, Compt&eacute;)</em> &ndash; 16,00 &euro;</li>
+            <li>Tabla de quesos de aqu&iacute; <em>(Manchego viejo, manchego semi, azul, trufado, cabra. Todos
+                    elaborados
+                    con leche cruda de oveja y cabra)</em> &ndash; 16,00 &euro;</li>
+            <li>Tabla Mixta <em>(Jam&oacute;n ib&eacute;rico, lomo ib&eacute;rico y queso manchego)</em> &ndash; 16,00
+                &euro;</li>
+            <li>Tabla ib&eacute;ricos <em>(Jam&oacute;n ib&eacute;rico, lomo y chorizo ib&eacute;ricos)</em> &ndash;
+                17,00
+                &euro;</li>
+            <li>Tabla de embutidos catalanes <em>(butifarra blanca, butifarra negra, Bull blanco y Bull negro Artesanos
+                    de
+                    la Cerdanya)</em> &ndash; 15,00 &euro;</li>
+        </ul>
+        <br>
+        <h3 class="text-center">Raciones y tapas</h3>
+        <ul>
+            <li>Fuet &ndash; 4,50 &euro; tapa / 7,00 &euro; raci&oacute;n</li>
+            <li>Jam&oacute;n ib&eacute;rico &ndash; 8,25 &euro; tapa / 16,00 &euro; raci&oacute;n</li>
+            <li>Queso manchego &ndash; 8,25 &euro; tapa / 16,00 &euro; raci&oacute;n</li>
+            <li>Queso trufado Peccorino &ndash; 9,50 &euro; tapa / 18,00 &euro; raci&oacute;n</li>
+        </ul>
+        <br>
+        <h3 class="text-center">Pica pica</h3>
+        <ul>
+            <li>Bravas Notorious &ndash; 7,00 &euro;</li>
+            <li>Ensaladilla Rusa &ndash; 6,00 &euro;</li>
+            <li>Chorizos minis de Le&oacute;n a la sidra &ndash; 7,50 &euro;</li>
+            <li>Berberechos de las r&iacute;as &ndash; 5,20 &euro;</li>
+            <li>Anchoas de la Escala &ndash; 9,00 &euro;</li>
+            <li>Boquerones &ndash; 8,00 &euro;</li>
+            <li>Mejillones &ndash; 5,00 &euro;</li>
+            <li>Almejas &ndash; 5,00 &euro;</li>
+            <li>Olivas de la Abuela &ndash; 1,90 &euro;</li>
+            <li>Berberechos de las r&iacute;as GIGANTES &ndash; 14,50 &euro;</li>
+            <li>Croquetas caseras de jam&oacute;n ib&eacute;rico - 1,90 &euro;</li>
+            <li>Croquetas caseras de cal&ccedil;ots - 1,80 &euro;</li>
+            <li>Croquetas caseras de pollo de corral - 1,80 &euro;</li>
+            <li>Croquetas caseras de foie - 1,90 &euro;</li>
+            <li>Croquetas caseras de gambas - 2,00 &euro;</li>
+            <li>Croquetas caseras de berenjena con queso de cabra - 2,00 &euro;</li>
+            <li>Raci&oacute;n de tortilla de patatas - 4,50 &euro;</li>
+            <li>Gambas al ajillo - 8,90 &euro;</li>
+        </ul>
+        <br>
+        <h3 class="text-center">Popurríes de conservas</h3>
+        <ul>
+            <li>Mix vermutillo <em>(patatas chips, boquer&oacute;n, salsa Espinaler y olivas)</em> &ndash; 4,75 &euro;
+            </li>
+            <li>Papill&oacute;n <em>(olivas, berberechos, navajas y mejillones)</em> &ndash; 7,50 &euro;</li>
+            <li>Mcqueen <em>(olivas, berberechos de las r&iacute;as, navajas y almejas)</em> &ndash; 7,90 &euro;</li>
+            <li>Notorious <em>(boquerones en vinagre (3 uds.), olivas, mejillones grandes, berberechos de las
+                    r&iacute;as y
+                    at&uacute;n)</em> &ndash; 10,10 &euro;</li>
+            <li>Mayor Dundee <em>(boquerones en vinagre, navajas, berberechos de las r&iacute;as tama&ntilde;o gigante y
+                    almejas)</em> &ndash; 13,10 &euro;</li>
+            <li>Wild Bunch <em>(anchoas de La Escala (6 uds.), berberechos gigantes de las r&iacute;as, navajas y
+                    mejillones)</em> &ndash; 17,00 &euro;</li>
+            <li>El Rey del Juego <em>(sardinas ahumadas (3 uds.), boquerones en vinagre (6 uds.), anchoas de La Escala
+                    (6
+                    uds.), berberechos de las r&iacute;as gigantes, mejillones grandes, patatas chips y olivas de la
+                    abuela)</em> &ndash; 22,00 &euro;</li>
+        </ul>
+        <br>
+        <h3 class="text-center">Vermuts</h3>
+        <ul>
+            <li>Vermut de la casa &ndash; 1,90 &euro;</li>
+            <li>Martini, cinzano, blanco rosso &ndash; 3,00 &euro;</li>
+            <li>Campari &ndash; 4,00 &euro;</li>
+            <li>Aperol con cava &ndash; 8,00 &euro;</li>
+            <li>Aperol &ndash; 5,00 &euro;</li>
+            <li>Yzaguirre blanco, rojo &ndash; 3,00 &euro;</li>
+            <li>Mir&oacute; blanco, rojo &ndash; 2,80 &euro;</li>
+            <li>Lustau blanco, rojo &ndash; 4,00 &euro;</li>
+            <li>Peruchi &ndash; 6,50 &euro;</li>
+        </ul>
+        <br>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

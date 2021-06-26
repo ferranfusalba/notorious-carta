@@ -2,10 +2,16 @@ body {
     font-family: 'Calluna-Regular', 'Times';
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Josefin Sans';
 }
 
-.CallunaRegular {
-	font-family: "Calluna-Regular";
+h2, h3 {
+    font-family: 'Calluna-Regular';
+}
+
+p,
+i,
+li {
+    font-family: "Calluna-Regular";
 }
