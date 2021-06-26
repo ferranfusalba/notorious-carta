@@ -19,3 +19,9 @@ i,
 li {
     font-family: "Calluna-Regular";
 }
+
+#calluna-a {
+    font-family: "Calluna-Regular";
+    text-decoration: none;
+    color: white;
+}
