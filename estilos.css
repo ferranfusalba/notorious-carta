@@ -2,6 +2,10 @@ body {
     font-family: 'Calluna-Regular', 'Times';
 }
 
+#body-carta {
+    background-color: #F9ECDB;
+}
+
 h1 {
     font-family: 'Josefin Sans';
 }
