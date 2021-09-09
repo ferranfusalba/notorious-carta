@@ -1,0 +1,50 @@
+body {
+    font-family: 'Calluna-Regular', 'Times';
+}
+
+#body-carta {
+    background-color: #F9ECDB;
+}
+
+h1 {
+    font-family: 'Josefin Sans';
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Calluna-Regular';
+}
+
+p,
+i,
+li {
+    font-family: "Calluna-Regular";
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#calluna-a {
+    font-family: "Calluna-Regular";
+    text-decoration: none;
+    color: white;
+}
+
+.far,
+.fas,
+.fab {
+    text-decoration: none;
+    color: black;
+}
+
+.btn,
+.mb-3 {
+    text-decoration: none;
+}
+
+#tdn {
+    text-decoration: none;
+    color: white;
+}
