@@ -52,3 +52,14 @@ li {
 #h2general {
     font-family: 'Josefin Sans';
 }
+
+@font-face {
+    font-family: "fontawesome-webfont";
+    src: url('fonts/fontawesome-webfont.woff2') format('woff2'), url('fonts/fontawesome-webfont.woff') format('woff');
+}
+
+#iconsFooter {
+    font-family: "fontawesome-webfont";
+    text-decoration: none;
+    color: black;
+}
