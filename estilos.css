@@ -63,3 +63,15 @@ li {
     text-decoration: none;
     color: black;
 }
+
+.bgIg {
+    background-image: linear-gradient(to right, #5163cf, #ce3881, #fac61f);
+}
+
+.bgGM {
+    background-color: rgb(56, 168, 86);
+}
+
+.bgPB {
+    background-color: turquoise;
+}
