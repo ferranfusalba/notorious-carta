@@ -75,3 +75,20 @@ li {
 .bgPB {
     background-color: rgb(0, 20, 110);
 }
+
+.tdnButton {
+    text-decoration: none;
+    color: black;
+}
+
+.tdnButton:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.footerStyle {
+    font-family: "Calluna-Regular";
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
